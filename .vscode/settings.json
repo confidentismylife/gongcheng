@@ -41,5 +41,25 @@
 	},
   
 	// ==========================prettier===============================
+	// ========================eslint===================================
+	"eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+	"typescript.tsdk": "./node_modules/typescript/lib", // 代替 vscode 的 ts 语法智能提示
+
+	// =================================================================
+  // ========================stylelint==============================
+  // 使用 stylelint 自身的校验即可, 关闭vscode验证
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": ["css", "less", "sass", "scss"],
+  // 在editor.codeActionsOnSave中增加styleLint修复
+  
+// ===============================================================
+	// 保存自动修复
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit",
+		    "source.fixAll.stylelint": "explicit"
+	  },
+  
   }
   
