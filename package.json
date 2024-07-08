@@ -20,7 +20,9 @@
 		"@typescript-eslint/eslint-plugin": "6.4.0",
 		"@typescript-eslint/parser": "7.2.0",
 		"commitizen": "4.3.0",
+		"commitlint-config-cz": "0.13.3",
 		"cz-conventional-changelog": "3.3.0",
+		"cz-customizable": "7.0.0",
 		"eslint": "8.x",
 		"eslint-config-airbnb": "^19.0.4",
 		"eslint-config-prettier": "9.1.0",
@@ -63,7 +65,7 @@
 	},
 	"config": {
 		"commitizen": {
-			"path": "node_modules/cz-conventional-changelog"
+			"path": "node_modules/cz-customizable"
 		}
 	}
 }
